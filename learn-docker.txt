@@ -1,0 +1,53 @@
+***********************************************
+***    All About Basic Docker Commands      ***
+***********************************************
+Date # 20-June-2018   Time # 12:00pm to 1:00pm EST 
+
+// About Myself
+    Hello Everyone! I'm Manikandan Balachandran, around 14+ years of experience in IT.
+    I started my career with Scientific Engineering Application and following with human-computer interactions,
+    near-real-time applications and business applications. Passionate in coding in C++, and Java. 
+
+// So, let's get started.
+    I would encourage you to refer the Docker links to understand the following terms…
+
+    1)	What is Docker? https://www.docker.com/what-docker
+    2)	What is Container? https://www.docker.com/what-container 
+    3)	Container vs VMs https://www.docker.com/what-container#/virtual_machines
+
+Prerequisite Tools #
+1)	Windows 10 or Mac or Linux Desktop/Laptop
+2)	Docker CE (https://store.docker.com/) 
+3)	Microsoft Visual Code (https://code.visualstudio.com/)
+4)	Microsoft Visual Code - Install the Docker extension (https://code.visualstudio.com/docs/azure/docker)
+
+Containers are a way of isolating programs or processes from each other. The primary aim of containers is to make programs easy to deploy in a way that doesn't cause them to break. It's easy to start using containers without being familiar with the technology that makes them work.
+
+However, it's more useful to build a simple container from scratch to learn how isolation is achieved before packaging and distributing containers with Docker.
+
+In this lab, you learn how to:
+Build, run, and distribute an application as a Docker image.
+
+Basic Commands           
+------------------------
+docker
+docker info
+docker version
+docker container run -p 80:80 httpd
+docker container run --name webdevserver -p 80:80 nginx
+docker container run -p 80:80 nginx
+docker images –all | -a
+docker ps
+docker container ls
+docker pull httpd
+docker top httpd (process inside httpd container)
+
+
+docker container run -it
+docker container exec -it
+docker container start -ai ubuntu
+
+
+docker build -t emo/java8 .
+
+http://localhost:8080/greeting
