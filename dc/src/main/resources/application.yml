@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active=poc:
+
+clientId: 
+tenantId: 
+userName: 
+userPassword: 
+clientSecret: "#+;+o|_.&/!](-c*=?+}y*=:=(@^;@-E}%@A1*{)|i7]&{v;d{)>"
+scopes: https://graph.microsoft.com/.default
+redirectUrl: https://localhost:8080
+
+#MAP
+urlKeyMapping:
+  myProfile: https://graph.microsoft.com/v1.0/me
+
+servers:
+  - www.abc.test.com
+  - www.xyz.test.com
