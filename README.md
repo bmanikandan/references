@@ -1,3 +1,3 @@
-# references
+Expecting technical experts to deliver enterprise grade solutions with a highly restricted environment and limited productivity booster tools is a challenging task. Such an environment can make it difficult for teams to work together efficiently, as communication and collaboration are essential for successful development of enterprise solutions.
 
-To facilitate this, companies should ensure that they recruit the right talent. They should focus on hiring experienced professionals and those with the necessary skills to support their fintech journeys. It is also important to restrict the hiring of cheap contract employees and less-skilled resources, as these are more likely to make things work than to truly support the projects. Additionally, companies should develop and implement an Architecture team to oversee C&B projects. This team should be responsible for recording all decisions made by the Architecture team along with the justifications for them.
+Example : PING and AI Grammar Checking etc.
