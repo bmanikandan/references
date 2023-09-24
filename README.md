@@ -1,3 +1,6 @@
-Developers are adding the rollback DDL script to the mock deployment request. No one unclear who made this decision.
-
-Technically, adding a new column to an existing table and dropping that column using a rollback script causes negative impacts and is not recommended by Oracle.
+In response to an error reported by Oracle 19c Database, the size of the Oracle Program global area (PGA) has been increased from 5GB to 8GB.
+While researching, we found that only one instance of the Payee application had established a connection to Oracle, while all other instances were experiencing timeout problems and reporting 10 errors to Hikari. The reason for this is that the maxLifetime value was not shorter than the connection time limit imposed by the database infrastructure. The Payee application property file has been reduced from 30 minutes to 5 minutes.
+(3) The OP load-balancer is not equally distributing traffic to all instances of the Payee application. The least-cost load-balance algorithm should distribute the load that has not happened. We therefore switched to Round-Robin algorithm and forced the traffic to be distributed to all running instances only for the Payee application.
+4) The testing revealed that an existing Payment update query related to the Payee approval process was frequently timed out. We applied the temporary fix to relax the update condition based on the business approval in the application property settings.
+Next release will include the permanent fix.
+None of the above is noticeable or reproducible in the lower environment.
