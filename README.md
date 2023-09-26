@@ -1,1 +1,1 @@
-A
+The discussion was based on the words and letters provided RFC 9110, regardless of the evidence we provided as to what the Payment API industry is following. We just need the Akamai reasons and the security team reasons to record in the ADR and move forward based on the leadership approval. 
