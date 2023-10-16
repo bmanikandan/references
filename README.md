@@ -1,1 +1,5 @@
-The majority of current service deliverables are based on simple storage and retrieval techniques. It is a legacy pattern since, in the early days of the banking industry, automation was the primary method of operation. This technique has worked very well and has led us to where we are today. In what time frame will we be able to transition into the next generation of solutions that involve the utilization of automation and intelligence on every single deliverable with a steady and fast pace, in order to meet the high expectations of our customers? 
+Thanks for taking the time to evaluate GraalM on a weekend, Vijay.
+The following observations have been made based on the following link:
+In the link provided there is a study report from Chronicle Queue, they have two versions of their queue product, one based on Java and one based on C++. JDK and GraalVM queue products were evaluated using JIT rather than AOT.
+
+The primary focus of our work is on ahead-of-time compilation (AOT) to native images, that is, Java to platform-specific native images, in which case the application will communicate with bare-metal hardware.
