@@ -1,3 +1,5 @@
 We have raised the sourcing project ID WS4231836270 for GraalVM Enterprise Edition with the objective of achieving AOT (Ahead-of-Time Compilation) and converting Java programs into native images that can communicate with bare-metal hardware. We would like to give a try on a heavy load applications and observe how it performs in terms of better utilization of resources such as low memory footprints and the CPU usages for cloud native microservices.
 
 Spring framework was extensively used by our team, and all the latest Sprig tools support the native image writing capabilities of GraalVM. Quarkus is a supersonic/subatomic Java from Red Hat's open source projects such as hibernate, hibernate bean validations, netty,  and infispan. There is still a need for GraalVM enterprise. Additionally, Red Hat is working on Mandrel, a distribution of GraalVM for Quarkus that is focused on native images.
+
+Often, teams conduct a Google search and share the opinion of outside developers and make recommendations for going ahead or not. Our objective is to test a high-performance application within our infrastructure and monitor the results using GraalVM Enterprise's native image.
