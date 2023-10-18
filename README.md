@@ -3,3 +3,7 @@ We have raised the sourcing project ID WS4231836270 for GraalVM Enterprise Editi
 Spring framework was extensively used by our team, and all the latest Sprig tools support the native image writing capabilities of GraalVM. Quarkus is a supersonic/subatomic Java from Red Hat's open source projects such as hibernate, hibernate bean validations, netty,  and infispan. There is still a need for GraalVM enterprise. Additionally, Red Hat is working on Mandrel, a distribution of GraalVM for Quarkus that is focused on native images.
 
 Often, teams conduct a Google search and share the opinion of outside developers and make recommendations for going ahead or not. Our objective is to test a high-performance application within our infrastructure and monitor the results using GraalVM Enterprise's native image.
+
+Additionally, Red Hat is also developing Mandrel, a fork of GraalVM Community Edition that is primarily focused on building native Quarkus images for Red Hat Enterprise Linux.
+
+Spring was extensively used across teams, and all the latest Spring tools support native image support for GraalVM. Quarkus is another competitor in the field of cloud-native services. It is a supersonic/subatomic Java from Red Hat's open-source product family, which includes hibernate, the hibernate bean validator, Netty, and Infinispan, among others. It is still necessary to have GraalVM Enterprise in order to evaluate Quarkus within our infrastructure.
