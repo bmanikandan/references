@@ -1,5 +1,3 @@
-Thanks for taking the time to evaluate GraalM on a weekend, Vijay.
-The following observations have been made based on the following link:
-In the link provided there is a study report from Chronicle Queue, they have two versions of their queue product, one based on Java and one based on C++. JDK and GraalVM queue products were evaluated using JIT rather than AOT.
+We have raised the sourcing project ID WS4231836270 for GraalVM Enterprise Edition with the objective of achieving AOT (Ahead-of-Time Compilation) and converting Java programs into native images that can communicate with bare-metal hardware. We would like to give a try on a heavy load applications and observe how it performs in terms of better utilization of resources such as low memory footprints and the CPU usages for cloud native microservices.
 
-The primary focus of our work is on ahead-of-time compilation (AOT) to native images, that is, Java to platform-specific native images, in which case the application will communicate with bare-metal hardware.
+Spring framework was extensively used by our team, and all the latest Sprig tools support the native image writing capabilities of GraalVM. Quarkus is a supersonic/subatomic Java from Red Hat's open source projects such as hibernate, hibernate bean validations, netty,  and infispan. There is still a need for GraalVM enterprise. Additionally, Red Hat is working on Mandrel, a distribution of GraalVM for Quarkus that is focused on native images.
