@@ -1,0 +1,2 @@
+I am Manoj, and as of now we only test on my Apple laptop that has the Apple Silicon processor AARM-64, which is a reduced instruction set, such that the results of the test cannot be applied to x86_64 systems.
+CDS has already rejected our requests and has agreed to manually install on my laptop. We will check with the midrange team to see if it can be installed manually on one of our Linux servers.
