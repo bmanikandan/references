@@ -1,6 +1,9 @@
 I am Manoj, and as of now we only test on my Apple laptop that has the Apple Silicon processor AARM-64, which is a reduced instruction set, such that the results of the test cannot be applied to x86_64 systems.
 CDS has already rejected our requests and has agreed to manually install on my laptop. We will check with the midrange team to see if it can be installed manually on one of our Linux servers.
 
+We initially implemented AUTH 2.0 using IPP's Apigee endpoint.
+In OAUTH 2.0 mode, the application obtains an access token before making a Check Printing request. The IPP team frequently disconnects the wire between Apigee and the IPP Core services. Just tested now, it stopped working.
+
 Is README.md fully documented along with the business use cases?
 Have all business requirements been met?
 Before coding begins, have customers/stakeholders reviewed and approved the tasks?
