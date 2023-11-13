@@ -1,0 +1,1 @@
+Mahendran always insist to deliver defect free solutions on all releases. Especially in my area PPS there was no P1 ticket for the last 4 years. He also encourages us to bring  new valuable tools and introduce to the PNC Technology stack. Reach out  to the individuals and bring them all to the meet the training compliance, timesheet and growth. 
