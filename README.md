@@ -1,1 +1,3 @@
-Mahendran always insist to deliver defect free solutions on all releases. Especially in my area PPS there was no P1 ticket for the last 4 years. He also encourages us to bring  new valuable tools and introduce to the PNC Technology stack. Reach out  to the individuals and bring them all to the meet the training compliance, timesheet and growth. 
+Our team (Oscar) is experiencing a NULL target Company ID issue after enabling JWT token-based authentication on the BSA Entitlement page. There may be a need for a code fix at the Portal side, which requires deployment of applications (pwo-pwop-app and pwo-pwoip-app) and the CE BSA SSO Common Gateway in conjunction with pwo-pps-bsa-apx.
+
+As soon as the deployment has been completed, I will let you know and update the version numbers at the Mock deployment request accordingly.
