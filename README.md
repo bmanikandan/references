@@ -1,3 +1,1 @@
-Our team (Oscar) is experiencing a NULL target Company ID issue after enabling JWT token-based authentication on the BSA Entitlement page. There may be a need for a code fix at the Portal side, which requires deployment of applications (pwo-pwop-app and pwo-pwoip-app) and the CE BSA SSO Common Gateway in conjunction with pwo-pps-bsa-apx.
-
-As soon as the deployment has been completed, I will let you know and update the version numbers at the Mock deployment request accordingly.
+In API development and testing, Burp Suite Community Edition is used to perform basic security testing on the local laptop to find authentication and authorization payload malfunctions earlier. There are no tools available to developers to test 401 and 403, MIM Payload malfunctions. The end-to-end security testing in C&IB occurs two weeks before PROD deployment that means after the code freeze. Exception deployment is required for any breach identified after the code freeze.
