@@ -1,4 +1,4 @@
-Thanks, Brad.
-Hello Shadman, At present, the future date is fixed and we accept payments up to 30 calendar days from today regardless of the payment method. This is the first time we have heard about the future date varying based on the payment amount that is received
-
-Following the completion of the migration of existing services to the dedicated cluster for C&IB. You will be notified when the shared cluster for PPD is to be decommissioned.
+Charlie Crew is lucky to have Venkata Maddineni as the only Ul developer that they have. It is remarkable what he has contributed to PINACLE Payments (PPS) over the past 6 years
+ As part of his work, he works closely with UX designers and devotes all his time to Angular upgrades.
+As a result, he made sure he involved everyone, encouraged collaboration, and made sure mistakes were not repeated.
+As a self-starter, he takes charge of his learning process Whenever he is developing the Ul, he always keeps in mind the responsiveness of the Ul with regard to the browser compatibility.
