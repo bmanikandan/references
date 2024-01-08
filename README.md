@@ -4,6 +4,8 @@ There are two connection factories supported by the Spring Boot Starter library 
 
 Solution:
 
+There is only one queue manager in the current IBM MQ model, with remote applications accessing a service as clients, which is less reliable than a distributed queue and cluster model, which uses a shared queue manager. In the event that PODs are automatically scaled in the future, that will open up more connections, so the single server model can become a stumbling block for Open Shift Kubernetes HPA or switch over to distributed message brokers (Kafka)
+
 Solution:
 It would be best for now if we switched to the Cached Connection Factory as a solution. In order to accomplish this, a Spring Boot CONFIG change and a deployment are required as well as restarting PODS after the configuration change has been deployed. The sooner we deploy, the better. One of the main drawbacks of using this connection factory is the fact that it causes slowness.
 Here are the results of our 10,000 message test that we conducted, where we posted 10,000 messages to a queue and collected the metrics. The Pooled Connection option was far better, however, it created threads outside the scope of the Spring Container Context, which made it less reliable. Currently, it is a little less mature than the Cached Connection Factory. Hopefully, future releases will be able to address this issue in a better way.
