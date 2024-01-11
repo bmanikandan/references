@@ -4,6 +4,8 @@ There are two connection factories supported by the Spring Boot Starter library 
 
 Solution:
 
+Considering that the demands for high demand resilient scaling are driving us to seek an alternative to IBM MQ for Payments, we are looking for an alternative solution. PNC offers two options listed below. Redpand may be a better choice for us among these options. We reached out to Ravi this morning in response to the PNC Confluence search as they have already explored the possibility of a DSP mnemonic early in 2023. The same technology would be beneficial to us.
+
 There is only one queue manager in the current IBM MQ model, with remote applications accessing a service as clients, which is less reliable than a distributed queue and cluster model, which uses a shared queue manager. In the event that PODs are automatically scaled in the future, that will open up more connections, so the single server model can become a stumbling block for Open Shift Kubernetes HPA or switch over to distributed message brokers (Kafka)
 
 Solution:
