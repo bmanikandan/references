@@ -4,6 +4,9 @@ There are two connection factories supported by the Spring Boot Starter library 
 
 Solution:
 
+Provide static values for statusCode and statusDescription in PPS until the actual status code is received by the system
+Staging and also show the status with appropriate 
+
 The broker applications related to payments establish pooled connections and maintain them at the MQ side as active
 A low configuration was defined for the MQ shared connection and was set to two, resulting in resource-limit-exceeded errors for clients attempting to connect. Consequently, Payments was stuck at an intermediate status (PREPARIN) leading to the processing of payments.
 
