@@ -4,6 +4,10 @@ There are two connection factories supported by the Spring Boot Starter library 
 
 Solution:
 
+Service solution- PNC CI/CD vs Micron. (PNC CI/CD)
+It depends on the expected load and the traffic to our application (MongoDB is good to some extent, while Oracle is good for some use cases). Let's start with MongoDB. We will decide based on the complexity and growth of the application
+Authentication services? - Transmit Security (No more compromized solution by mimiking AUTH 2.0) I
+
 The idea is to demonstrate Java based Nanoservices application development that can be configured to connect to the bare metal hardware and provides smaller, faster startup, specialized, self-contained units of functionality that work together to accomplish a larger task.
 
 Please advise whether the title change to Software Engineer Professional would require us to file an amendment to our USIS if we make the change.
