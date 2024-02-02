@@ -4,6 +4,9 @@ There are two connection factories supported by the Spring Boot Starter library 
 
 Solution:
 
+Sathish suggested you as the next contact. Assign JIRA Task to Oscar JIRA board. This way, if a duplicate defect is raised, we will defer it. You can also see who is working on what and the status instead of using email. This reduces heat exchange between teams.
+
+
 Service solution- PNC CI/CD vs Micron. (PNC CI/CD)
 It depends on the expected load and the traffic to our application (MongoDB is good to some extent, while Oracle is good for some use cases). Let's start with MongoDB. We will decide based on the complexity and growth of the application
 Authentication services? - Transmit Security (No more compromized solution by mimiking AUTH 2.0) I
