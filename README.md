@@ -1,30 +1,28 @@
-We have completed the analysis for the Dec 2023 PPS production issue in connection with the IBM Queue Manager in order to resolve the issue. During this analysis, we were able to identify several undocumented behaviors associated with the IBM MQ Client Spring Boot Starter library v3.1.5, and we were surprised to learn that the throttle level for the MQ Server adhering to Single Server Queue Manager architecture was set at 500 (allowed maximum number of connections).
+Microservices, in a way, was the next step in the evolution of SOA. Similarly, nanoservices can be considered as the evolved form of microservices architecture.
 
-There are two connection factories supported by the Spring Boot Starter library for IBM MQ Client, 1) Cached Connection Factory and 2) Pooled Connection Factory. With regards to the volume of incoming payments as well as the ability to display an audit report in real-time, the Pooled Connection Factory has been used by the application team from the beginning. Pooled Connection Factory uses PooledJMS as part of its internal architecture, which is a 3rd-party library that has been assessed by us as part of our analysis. According to the code that I reviewed, the default value for the Maximum Idle Sessions Per Connection is the same value as the default value for the Max Sessions Per Connection. As a result of this logic, connections are maintained as active at all times. Here is a copy of the source code from the Open Source GITHUB project.
+Once nanoservices are deployed, they give an additional level of flexibility as they allow you to chain together different services.
+components of nanoservices are too fine-grained as compared to microservices. There’s no need to duplicate code in nanoservices to be deployed.
 
-Solution:
+A nanoservice by structure is intended to do one task at a time only, and present it as a single API endpoint. With nanoservices, each command is likely to be separate but on the other hand, microservices often have multiple commands.
 
-Sathish suggested you as the next contact. Assign JIRA Task to Oscar JIRA board. This way, if a duplicate defect is raised, we will defer it. You can also see who is working on what and the status instead of using email. This reduces heat exchange between teams.
+Listed below are Some of the Benefits of Using Nanoservices in your Projects:
+
+A nanoservice can have its own security protocol
+Flexibility to use different services
+Easy to deploy
+Nanoservice can be created according to its own schedule
+Nanoservices can be clustered together to form a usable application
 
 
-Service solution- PNC CI/CD vs Micron. (PNC CI/CD)
-It depends on the expected load and the traffic to our application (MongoDB is good to some extent, while Oracle is good for some use cases). Let's start with MongoDB. We will decide based on the complexity and growth of the application
-Authentication services? - Transmit Security (No more compromized solution by mimiking AUTH 2.0) I
+e·phem·er·al
+Lasting for only a short time
+ (Temporary) Environments Explained
 
-The idea is to demonstrate Java based Nanoservices application development that can be configured to connect to the bare metal hardware and provides smaller, faster startup, specialized, self-contained units of functionality that work together to accomplish a larger task.
 
-Please advise whether the title change to Software Engineer Professional would require us to file an amendment to our USIS if we make the change.
-
-Provide static values for statusCode and statusDescription in PPS until the actual status code is received by the system
-Staging and also show the status with appropriate 
-
-The broker applications related to payments establish pooled connections and maintain them at the MQ side as active
-A low configuration was defined for the MQ shared connection and was set to two, resulting in resource-limit-exceeded errors for clients attempting to connect. Consequently, Payments was stuck at an intermediate status (PREPARIN) leading to the processing of payments.
-
-Considering that the demands for high demand resilient scaling are driving us to seek an alternative to IBM MQ for Payments, we are looking for an alternative solution. PNC offers two options listed below. Redpand may be a better choice for us among these options. We reached out to Ravi this morning in response to the PNC Confluence search as they have already explored the possibility of a DSP mnemonic early in 2023. The same technology would be beneficial to us.
-
-There is only one queue manager in the current IBM MQ model, with remote applications accessing a service as clients, which is less reliable than a distributed queue and cluster model, which uses a shared queue manager. In the event that PODs are automatically scaled in the future, that will open up more connections, so the single server model can become a stumbling block for Open Shift Kubernetes HPA or switch over to distributed message brokers (Kafka)
-
-Solution:
-It would be best for now if we switched to the Cached Connection Factory as a solution. In order to accomplish this, a Spring Boot CONFIG change and a deployment are required as well as restarting PODS after the configuration change has been deployed. The sooner we deploy, the better. One of the main drawbacks of using this connection factory is the fact that it causes slowness.
-Here are the results of our 10,000 message test that we conducted, where we posted 10,000 messages to a queue and collected the metrics. The Pooled Connection option was far better, however, it created threads outside the scope of the Spring Container Context, which made it less reliable. Currently, it is a little less mature than the Cached Connection Factory. Hopefully, future releases will be able to address this issue in a better way.
+ https://medium.com/@ido.vapner/unlocking-the-power-of-nano-services-a-new-era-in-microservices-architecture-22647ea36f22
+ https://www.neovasolutions.com/2022/04/07/nanoservices-the-future-of-software-architecture/
+ https://logz.io/blog/nanoservices-vs-microservices/
+ https://yourtechdiet.com/blogs/nanoservices/
+ https://pmuens.medium.com/nanoservices-microservices-monolith-serverless-architectures-by-example-2e95365a0f6f
+ https://auth0.com/blog/implementing-nanoservices-in-aspnet-core/
+ https://www.bmc.com/blogs/microservice-vs-nanoservice/
