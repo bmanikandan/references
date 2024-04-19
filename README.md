@@ -3,6 +3,8 @@ Microservices, in a way, was the next step in the evolution of SOA. Similarly, n
 Once nanoservices are deployed, they give an additional level of flexibility as they allow you to chain together different services.
 components of nanoservices are too fine-grained as compared to microservices. There’s no need to duplicate code in nanoservices to be deployed.
 
+This service offers searchable APIs that allow merchants to search transactions made through these channels, and is constantly evolving to meet merchant needs.
+
 A nanoservice by structure is intended to do one task at a time only, and present it as a single API endpoint. With nanoservices, each command is likely to be separate but on the other hand, microservices often have multiple commands.
 
 Listed below are Some of the Benefits of Using Nanoservices in your Projects:
