@@ -1,3 +1,7 @@
+Cloud Native journey simplified with GraalVM. It runs at the speed of underlays. Java Nanoservices developed with GraalVM are cloud-ready and more efficient, while preserving the Java ecosystem's benefits. Faster start up and lower CPU and memory usage reduce hardware costs, especially at scale with high-load banking systems.
+
+
+
 Microservices, in a way, was the next step in the evolution of SOA. Similarly, nanoservices can be considered as the evolved form of microservices architecture.
 The system is based on the Google research paper Zanzibar, Google's Consistent, Global Authorization System. The bank faces various challenges to establish varying levels of secure business account access for bookkeepers, office managers, key employees, and even CPAs. Allows business owners to delegate cash management activities without sacrificing control or security.
   Provide secure and confident access management via Fine Grained Access Control
