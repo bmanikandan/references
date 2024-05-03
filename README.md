@@ -1,5 +1,9 @@
 Microservices, in a way, was the next step in the evolution of SOA. Similarly, nanoservices can be considered as the evolved form of microservices architecture.
-
+The system is based on the Google research paper Zanzibar, Google's Consistent, Global Authorization System. The bank faces various challenges to establish varying levels of secure business account access for bookkeepers, office managers, key employees, and even CPAs. Allows business owners to delegate cash management activities without sacrificing control or security.
+  Provide secure and confident access management via Fine Grained Access Control
+Quickly implement Role Based Access Control (RBAC) in Banking applications.
+  Easy control of applications with Policy Based Access.
+Supports millions of authorization requests per second and trillions of access control lists. 
 Once nanoservices are deployed, they give an additional level of flexibility as they allow you to chain together different services.
 components of nanoservices are too fine-grained as compared to microservices. There’s no need to duplicate code in nanoservices to be deployed.
 
