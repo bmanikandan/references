@@ -1,6 +1,7 @@
 Cloud Native journey simplified with GraalVM. It runs at the speed of underlays. Java Nanoservices developed with GraalVM are cloud-ready and more efficient, while preserving the Java ecosystem's benefits. Faster start up and lower CPU and memory usage reduce hardware costs, especially at scale with high-load banking systems.
 
-
+Let the pagination be automatic for the top 10,000 latest transaction. PIT creates views on the frozen datasets and stay until the keep-alive ends.
+Not all users view all pages, some jump to VT or Reports from the first page. Tempura servers may start evicting stale keep-alive connections if we open multiple long-duration keep-alive connections, which causes a lot of overhead.
 
 Microservices, in a way, was the next step in the evolution of SOA. Similarly, nanoservices can be considered as the evolved form of microservices architecture.
 The system is based on the Google research paper Zanzibar, Google's Consistent, Global Authorization System. The bank faces various challenges to establish varying levels of secure business account access for bookkeepers, office managers, key employees, and even CPAs. Allows business owners to delegate cash management activities without sacrificing control or security.
