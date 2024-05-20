@@ -1,1 +1,2 @@
-
+Using the Shadowing experience (Cobrowse technology) significantly improves customer service IT operations by allowing customer service representatives (CSRs) to see exactly what customers are experiencing. Prior to the production release, it is important to prepare ahead of time. The technology should be designed as a safe one for internal use, with a slight variation from the traditional methods of screen sharing.
+To put it simply, whatever service a customer requires, our CSR is there to help them every step of the way. Whenever a CR cannot be resolved using Shadowing Experience technology, they will collect evidence, screenshots, and raise MCC tickets based on the severity of the defect.
