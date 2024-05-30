@@ -1,0 +1,4 @@
+Our interns are already familiar with Java and Python and have pre-existing knowledge in those languages. Providing the opportunity for them to apply their skills and be trained in Meta Llama 3 (Large Language Moalde) in order to build an intelligent assistant that will expand the ways in which PNC developers will be able to accomplish tasks, and create and connect with Meta AI in a way that will be effective for coding tasks and problem solving.
+
+A number of internals were introduced into the Al, and they were given the opportunity to learn how to use Llama 3 with 8B and 70B pre-displaying models and customize the existing models to meet their specific requirements.
+PNC will benefit from this idea and it will be beneficial to the entire organization. 
