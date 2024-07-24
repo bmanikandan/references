@@ -1,9 +1,1 @@
-мом #
-As part of the call today, Prashant has come up with a proposal to use PayFac entitlements for PayFac users for Scepter Ul as part of MVP 1.1. This would save the Scepter from having to maintain entitlements for each channel on its side. PINCALE entitlements are maintained on the PINACLE side, Commercial Experience entitlements are maintained on the PWO side, Retail entitlements are maintained on the retail side, and PayFac entitlements remain on the PayFac side. When responding to a request, the Scepter Applications consume those services for authorization purposes.
-Generally, Entitlement refers to the fact that MDM Party IIDs and RNIDs are associated with the channel data sources in this case. Since this is not in line with what we had agreed upon before, we requested Prashant to prepare an alternative dispute resolution proposal.
-Prashant asked whether it would be worthwhile to build APIs with Exterani API capabilities since he has no idea if there will be any initial customers ready to consume them
-An API as a service for merchants. It will be subject to further discussion with Sathish about this issue.
-As part of the agreement Biplab agreed to include MDM Party ID to the credit and reverse APs, as well as updating Swagger as well.
-The API details for PayFac entitlements and Reail entitlements have been added by Prashant.
-It has been agreed by Prashant to draft the ADR for the Discincted Datassource Entitlement Model and its Diagram and Consequences before the Friday meeting.
-It has been agreed by both parties that the next connect call will take place this Friday.
+The interested folks are requested to register themselves or their organization for this virtual conference as there are a number of interesting sessions scheduled for you to cherry pick based on your interest areas in building low-latency applications. Industry experts shared some of their experience with you during these sessions.
