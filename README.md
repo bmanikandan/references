@@ -1,1 +1,5 @@
-Quite often, there is a subjective interpretation of the term "less work", for example, if Scepter fails to hold the mechanism of data restrictions and isolation for the LOB systems, they will have to develop the missing capabilities on their own, the work would be spread across multiple systems which will cause delays and results that fall below expectations.
+We have not yet derived any conclusions regarding the storage of entitlements in the LOB Entitlement Database. There will be a follow-up conversation in two weeks' time.
+
+The MVP v1.1 release does not include OpenFGA. Though that may be revised after the first point has been resolved.
+
+For the next two weeks, all entitlement stories will be put on hold.
