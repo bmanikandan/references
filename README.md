@@ -1,1 +1,1 @@
-Provide answers to frequently asked questions about failed payments due to set of trained known failures and suggest recovery steps and the next course of action. This reduces the number of tickets submitted to level 1 of the IT support system.
+Conversational Chatbot Al answers frequently asked questions about failed or processed payments using a set of pre-trained failures and recovery steps. It creates troubleshooting guides with detailed instructions on request that reduce the number of tickets created by Level 1 IT support. The knowledge base is also regularly updated.
