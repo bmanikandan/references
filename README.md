@@ -1,1 +1,4 @@
-Conversational Chatbot Al answers frequently asked questions about failed or processed payments using a set of pre-trained failures and recovery steps. It creates troubleshooting guides with detailed instructions on request that reduce the number of tickets created by Level 1 IT support. The knowledge base is also regularly updated.
+In place of relying on Staged data, the entitlement system of record was implemented.
+The code is tuned to make parallel calls using reactive programming.
+PINCALE Payments and Connected Payments are both supported
+The user interface has been upgraded using Angular 18
