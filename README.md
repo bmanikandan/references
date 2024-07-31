@@ -1,4 +1,1 @@
-In place of relying on Staged data, the entitlement system of record was implemented.
-The code is tuned to make parallel calls using reactive programming.
-PINCALE Payments and Connected Payments are both supported
-The user interface has been upgraded using Angular 18
+Any existing or new service must be capable of being exposed as a public API at some point in the near future. It is mandatory to approach design, coding, and testing from the same point of view. RFC 9113, published by the Internet Engineering Task Force, must be followed in API design
