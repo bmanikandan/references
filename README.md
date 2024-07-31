@@ -1,1 +1,1 @@
-Any existing or new service must be capable of being exposed as a public API at some point in the near future. It is mandatory to approach design, coding, and testing from the same point of view. RFC 9113, published by the Internet Engineering Task Force, must be followed in API design
+Increasing the accuracy of the response and upgrading the technology
