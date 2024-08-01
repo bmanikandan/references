@@ -1,3 +1,0 @@
-Your Al bot can provide you with answers to frequently asked questions regarding failed or processed payments using pre-trained models, and it can guide you through the entire recovery process. It creates troubleshooting guides with detailed instructions on request that reduce the number of tickets created by Level 1 IT support|
-
-The bot currently supports operations in the PINACLE Payments system that can only be read-only.
