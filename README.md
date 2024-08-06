@@ -1,1 +1,2 @@
-There is no need to take any action. Keeping with the SLF4J one that comes with Spring Boot as its default option, I decided to stick with it. Technically, Logback supports ASYNC Appenders, but it is not required to use these appenders since the logging level of Logback considers only errors and warnings. However, if there is a need for a stringent return, then you should switch to Logback.
+The Scepter virtualization platform is a Layer 4 gateway that is intended to simulate all kinds of different functions
+In the absence of simulated responses, HTTPS traffic is routed to the corresponding original endpoint, and the raw response is returned back to the client. It is applicable only to RND, UAT, and QA environments.
