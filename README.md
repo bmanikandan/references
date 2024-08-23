@@ -1,1 +1,0 @@
-A repository on Bitbucket can verify that most commits that have been pushed to the repository in recent days contain a Jira issue key in their commit message, since that was the case yesterday. If you are experiencing any issues with commits failing, please include the story number in the commit message.
