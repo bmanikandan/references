@@ -1,8 +1,3 @@
-Team,
-I would appreciate it if you could update the minutes of the meeting, since I arrived 20 minutes late.
-I can provide you with the minutes that were discussed from the point at which I joined the meeting, as far as I am aware.
-
-On the Transactions view page, consider including Fees as a display item at the same time as the settlement amount after the fee calculation has been done.
-   There is a side panel that shows the details of each transaction within the Transactions microapp.
-   Once the design page has been completed, Joy will release it to the DEV team and work with them as well as the business sponsors in parallel to make sure the look and feel is approved.
-   Yogesh prepared the internal service plan and is ready to socialize with Shiv and Manikandan once the service has been completed
+The term dispute refers to a customer grievance about a particular transaction that they have experienced. A dispute with a customer precedes a chargeback. The dispute is basically a complaint filed by a customer to their credit card issuer or bank that results in the institution reversing the payment that was made by the customer.
+When a cardholder disputes a credit card transaction and asks their bank to reverse the payment, this is known as a chargeback. As a result, the cardholders seek to obtain this remediation through the chargeback-dispute process, which occurs when the issuer reverses a payment in response to a complain from a cardholder after conducting some due diligence.
+In order to fight invalid chargebacks, chargeback representation is a systematized and rigorous process that must be followed. The procedure of chargeback representation involves presenting evidence, such as a copy of the sales receipt or proof of delivery, to the customer's bank in order to prove to them that the transaction is legitimate.
