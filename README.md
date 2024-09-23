@@ -1,0 +1,1 @@
+Thank you all so much for taking the time to attend this meeting. You can refer to the JIRA documentation at the following link: Master Planning with Jira Advanced Roadmaps | Atlassian
