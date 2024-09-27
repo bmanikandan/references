@@ -1,1 +1,0 @@
-Hi Karen Ann, C&IB has already collaborated with you on this effort under this POC ticket EA0112709 (Graal VM + JDK21). I would appreciate it if you could help us speed up the process.
