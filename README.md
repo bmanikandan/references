@@ -1,3 +1,0 @@
-Sadly, today's meeting has been cancelled. Our primary objective for this meeting is to discuss our use cases related to service mesh and to learn the process of submitting the onboarding forms so that we remain on your priority queue next to WBA integration.
-
-We would appreciate if you would provide us with the onboarding forms for our mnemonic, so that we can complete the paper work as quickly as possible without interrupting Your journey to integrate WBA in the meantime.
