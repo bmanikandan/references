@@ -1,1 +1,0 @@
-The internal portal screen that was based on the PINCALE DSMs was awesome, excellent, and gave the organization a professional touch. As we discussed today and at 1:30 PM with Joy, we would like to include you in the other two screens as well. Your extended support is greatly appreciated, and we thank you in advance for your assistance.
