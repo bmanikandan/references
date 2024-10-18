@@ -1,1 +1,0 @@
-It would be helpful if you could help us understand how MBL finds the merchant ID for a given MDM Party ID in MBL. Additionally, we would like to know how MBL identifies the mobile user as enrolled for Mobile Accept service within the  Mobile App before showing the card reader capabilities.
