@@ -1,1 +1,0 @@
-In regards to the email we sent yesterday, we would appreciate it if you could respond to it along with your busy schedule in the shortest possible time.
