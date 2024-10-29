@@ -1,1 +1,0 @@
-In this application, Kafka message broker receives a stream of messages that need to be exchanged with Tempus in order to generate RNID profiles for the newly created TID and MID for the sub-merchant that has just been onboarded.
