@@ -1,2 +1,3 @@
-You may want to take a look at this link this site, where the fee details are published. These are subject to change at any time, and sometimes the bank may be willing to offer some concessions to its customers to in order to remain competitive. Let's not hard-code the fees or use Caches to save time. MVP v1.1 does not allow you to edit the fees, but in the near future it will be possible to edit the fees to ensure the sub-merchants can compete on their own terms.
-It is recommended that fees are stored in MongoDB and that fees be charged by the MDM Party ID and the combination of the MID.
+This is a deployment strategy and it has nothing to do with fetching retail entitlements in any way. A single pod is used by the retail to bundle all SFP APIs and BFF APIs together.
+
+In the end, BFF calls the SFP API using HTTPS regardless of whether it is bubbled in a single pod or outside single pod.
