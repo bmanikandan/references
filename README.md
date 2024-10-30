@@ -1,0 +1,1 @@
+Nanoservices using GraalVM JDK21 were presented at Innovation Showcase on Feb 29th 2024. We used an existing Spring Boot application as-is, converted it to native image using GraalVM, and compared the difference between JVMs vs Native Images. Please refer to the attached presentation slides for more details.
