@@ -1,7 +1,5 @@
-Developers often say that they are waiting for Manikandan's help, awaiting clarification despite 30+ days under development, calming the situation by not moving forward.
+My suggestions for UI changes are ignored, I'm not invited to UX design acceptance meetings
 
-Stories are uncooked by some BSAs.  Drag story creation in the name of technical guidance from Manikandan without analyzing the information they have. Come every morning with fresh mind as a new face starting from zero by completely forgot everything from the previous discussion.
+Hardcoding exception details was not suggested, but developers followed their own convenience method to handle exceptions.
 
-Developers deliver bullshit. They don't meet their commitments. Such bullshit efforts are marked as completed and accepted by agile lovers.
-
-Agile lovers are floating a story to many individuals in the name of best practice.
+As suggested not to create unnecessary tiny libraries, developers pursue their own convenient way of creating Jars based on Java 1.2 knowledge.
