@@ -1,1 +1,1 @@
-Experienced Java professionals like you deliver enterprise-grade solutions with minimal or no supervision. The minimum expectation of a REST API developer is that they can code all API request input parameters. A working sample covering one use case, "EQ", has been provided as a pair-programmer, though no further development was made after that. Now you blame a scrum story after API consumers spot us. Do you think this justifies the claim of two months of development time? Do you think it's a valid reason? Our ability to achieve our goals is limited by such excuses.
+
