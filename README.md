@@ -1,0 +1,1 @@
+Notes can be modified by Sub-Merchants of PNC or employees of Tempus who are authorized to do so. There are two types of notes: internal notes and external notes. It is only possible for PNC and Tempus users to access internal notes, while all users have access to external notes.
