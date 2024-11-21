@@ -1,0 +1,1 @@
+I will be attending the SaAFe 6.0 all-day training program from Monday, December 02, 2024 - Wednesday, December 04, 2024 for a total of three days (3 days). Please be aware that I may or may not be reachable through Teams during this period. It is important for you to plan and discuss your questions about the assigned tasks in advance.
