@@ -1,42 +1,21 @@
-Temporal use cases refer to scenarios where time is a critical component of data processing, decision-making, or user interaction. Here are categories of temporal use cases and examples across industries:
+Enterprise Architecture (EA) team is waiting for Retail to issue a GREEN signal to C&IB to be able to take over the ownership of Temporal Free Open-Source product as soon as possible. 08-15-2022 09:27:11 - Temporal.io v1.17.2 (Open Source)
+On August 2022, the Retail Innovation team submitted a ticket that was approved for a proof of concept. There was no further action taken by them after the POC.
 
-1. Real-Time Decision Making
-Healthcare: Monitoring a patient’s vital signs in real time to trigger alerts during critical conditions.
-Smart Home Systems: Adjusting lighting, heating, or alarms based on immediate user activity or schedules.
-Traffic Management: Dynamic routing and signal control based on current traffic conditions.
-2. Time-Series Data Analysis
-Finance: Analyzing stock prices or market trends over time to make investment decisions.
-Energy: Monitoring electricity consumption patterns to optimize grid performance.
-IoT Devices: Collecting and analyzing sensor data to detect anomalies, such as temperature spikes.
-3. Scheduling and Planning
-Transport: Scheduling trains, buses, or delivery routes to ensure efficient operations.
-Project Management: Allocating tasks and resources based on milestones and deadlines.
-Healthcare Appointments: Scheduling patient visits to minimize waiting times.
-4. Historical Data and Trends
-Weather Forecasting: Using historical weather data to predict future conditions.
-Epidemiology: Tracking disease spread over time to identify patterns or hotspots.
-Retail: Analyzing seasonal sales trends to optimize inventory.
-5. Predictive Analytics
-Maintenance: Predicting equipment failure based on temporal usage patterns.
-Customer Retention: Identifying users likely to churn based on engagement over time.
-Sports: Analyzing player performance over seasons to forecast potential outcomes.
-6. Time-Dependent User Experience
-Social Media: Highlighting posts or memories from the past (e.g., “On This Day” features).
-E-commerce: Providing time-sensitive offers like flash sales or countdowns.
-Learning Platforms: Allowing users to track progress and revisit content after specific intervals.
-7. Event Monitoring and Alerts
-Cybersecurity: Monitoring network activity for suspicious patterns over time.
-Disaster Management: Tracking the progression of natural disasters to optimize response times.
-Logistics: Triggering alerts for delayed shipments.
-8. Simulation and Modeling
-Climate Change Studies: Simulating Earth’s climate over centuries to predict future scenarios.
-Urban Planning: Modeling traffic and population growth over decades to inform infrastructure design.
-Game Development: Introducing mechanics like time travel or day-night cycles for dynamic storytelling.
-9. Legal and Compliance
-Audit Trails: Maintaining timestamped logs for regulatory compliance.
-Contract Management: Tracking expiration dates and milestones in agreements.
-Data Retention Policies: Automating data deletion or archival based on age.
-10. Temporal Machine Learning
-Forecasting: Models like ARIMA or LSTMs to predict future trends.
-Causal Inference: Understanding cause-effect relationships by analyzing sequences of events.
-Time-Sensitive Recommendations: Offering users suggestions based on recent interactions or historical trends.
+11-12-2024 22:00:26 - Temporal.io v1.25.2 (Open Source)
+The C&IB Merchant Services team submitted this ticket in November 2024, and it has been stuck since then. As the EA team is concerned, we are unable to move forward until the Retail agrees to transfer Temporalio ownership over to us.
+
+There is a request from Retail Innovation that they review our use cases to see if they have already tried those scenarios or not. If both are different, Retail & CSIB will combine and work together on the case.
+The development of the project.
+The Retail Innovation team has already developed a custom-built in-house product, so if our use case would fit into their custom-built in-house product, we might be able to proceed to launch it.
+The request has been made to set up a meeting with Michael.Minella@PNC.com in order to discuss our use cases in more detail.
+Here is a list of use cases we shared with Ordonez Rick M today.
+
+Workflow abstraction with Ul is the best and shows the workflow in an easy to understand manner.
+It is important to maintain workflow continuity - Start from the point where the form failed and complete it to the end.
+Retrying the workflow,
+Tolerance for faults
+Timeouts should be handled more efficiently.
+The following are some other possible uses for this technology
+1. The ability to make real-time decisions and schedule based on the fact that experience depends on time.
+Logs are written in a time-series manner as a result of anomalous spikes being detected.
+Injection of workflows based on regulatory requirements, if any, on an as-needed basis.
