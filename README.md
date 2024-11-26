@@ -1,1 +1,0 @@
-This API is designed to provide information only. As such, it should be tuned depending on the use cases you may have. Do not use it as is!
