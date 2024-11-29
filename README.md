@@ -1,0 +1,1 @@
+Resolving today's problems with a strong belief in legacy architectural patterns and architectural cloning have proven to be difficult.The result is long and continuing debates on the topic.
