@@ -1,5 +1,1 @@
-Resolving today's problems with a strong belief in legacy architectural patterns and architectural cloning have proven to be difficult.The result is long and continuing debates on the topic.
-
-We spend a great deal of time preparing step-by-step instructions to help contractors improve their performance and increase their chances of success at the speed they are comfortable with.
-
-Make a great effort to build a resilient Merchant Service Application
+This is in accordance with the Tempus GTI setup that is designed to operate based on RNIDs. RNIDs cannot be grouped by sub merchants at GTI because they do not have an option to do so. Thus, it is only possible to request-per-submerchant-RNID(s) as a result. With our MVP v1.1 solution, we are starting with single-store customers, i.e., the one-merchant-one-store model. Taking any shortcut based on this decision will result in rewriting our solution postproduction. Instead, we will stick to the request-per-submerchant-RNID(s) model, in which parallel calls are made to Tempus and results are cached, until Tempus agrees to allow us to connect submerchant data and RNID within GTI.
