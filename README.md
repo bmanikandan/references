@@ -1,1 +1,1 @@
-For MVP v1.1, filter data by chaincode 1850 (Scepter level) and group by RNID for aggreations with this formula "one-merchant-one-store". Absorption team needs to revise the logic that is grouped by reporting chain code after MVP release. 
+Risk exception metrics analyzed across all sub-merchants, funding status, and date period. By default, this API considers all Scepter merchants, unless you pass merchantid as a Query parameter.
