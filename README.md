@@ -1,1 +1,1 @@
-Risk exception metrics analyzed across all sub-merchants, funding status, and date period. By default, this API considers all Scepter merchants, unless you pass merchantid as a Query parameter.
+Submerchant funding released at the company level. Exceptions at the transaction level will not be released automatically because of merchant level releases.
