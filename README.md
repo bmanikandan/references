@@ -1,1 +1,0 @@
-Submerchant funding released at the company level. Exceptions at the transaction level will not be released automatically because of merchant level releases.
