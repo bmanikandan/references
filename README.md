@@ -1,1 +1,0 @@
-Request to generate a Client ID and Client Secret with the necessary OAuth scope for secure access to DAD’s internal APIs in the production environment.
