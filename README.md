@@ -1,5 +1,1 @@
-I am part of the Scepter Projects team, and the DI PING setup is scheduled to go live tonight. Mrudula and Shashank mentioned your name as a point of contact.
-
-After the DI setup, we would like to validate the implementation using an existing Mobile Accept Prod test login account. Could you please share the details of any available test account?
-
-Looking forward to your response.
+We are drafting the operational manual for the run-the-business team and need to include key contact details for CERT rotation or any production environment issues. Could you provide the official communication channels, including the designated contact number, email address, or ticket creation process for reporting issues with Tempus?
