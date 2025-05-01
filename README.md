@@ -1,0 +1,1 @@
+The SCC work has been completed. Since it’s a one-time change, Rayan prefers to apply the updates manually for each environment. The CAAS team is also able to handle these changes if needed. Please shift your focus to other priorities and refrain from spending any additional time on SCC.”
