@@ -1,1 +1,0 @@
-This inquiry pertains to the APP mnemonic. We would like to confirm whether the APP Redis instances are configured to use Append Only File (AOF) for persistence, or if they rely on periodic snapshots (RDB) that save data at defined intervals and restore the Redis cache from these files during crash recovery.
