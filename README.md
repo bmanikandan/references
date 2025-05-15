@@ -50,5 +50,10 @@ d. Data Correction Interfaces (Optional for Advanced Use Cases)
 e. Configurable Tolerance Levels
 	•	Allow merchants or system administrators to define acceptable thresholds for data completeness (e.g., “allow report generation if at least 90% of fields are populated”).
 
+It seems that the Jasper platform is relatively new to our team, contrary to our earlier assumption that most developers were already familiar with Jasper Reports. To bridge this gap, we’ll arrange a Jasper 101 knowledge transfer session soon.
+
+
+
+
 f. Test and Simulate with Dummy/Partial Data
 	•	Ensure the report engine is tested against synthetic and intentionally incomplete datasets to verify robustness and formatting resilience.
