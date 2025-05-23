@@ -1,0 +1,1 @@
+APIs per section are not required, as these pertain to data collector requirements and do not need to be exposed externally. If any such need arises, a single API capable of handling all sections should suffice.
