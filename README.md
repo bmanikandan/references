@@ -1,0 +1,3 @@
+Agreed — it’s not advisable to approach this through an escalated or “dirty” route. The PayFac Engine codebase, which includes Spring Integration, Spring Web, Spring Web Services, Spring MVC, and Spring MVC OpenAPI UI, has its own set of custom exception handlers.
+
+This is a monolithic application, Satish, and we’re in the process of identifying and removing unnecessary components from the PayFac Engine code. There are several heavyweight frameworks currently present in the application classpath, especially those tied to fallback handlers, and our goal is to decouple and eliminate them where possible.
