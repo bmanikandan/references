@@ -1,3 +1,14 @@
-Agreed — it’s not advisable to approach this through an escalated or “dirty” route. The PayFac Engine codebase, which includes Spring Integration, Spring Web, Spring Web Services, Spring MVC, and Spring MVC OpenAPI UI, has its own set of custom exception handlers.
+Subject: Support for app-qa4 Deployment and Gateway Mesh Configuration
 
-This is a monolithic application, Satish, and we’re in the process of identifying and removing unnecessary components from the PayFac Engine code. There are several heavyweight frameworks currently present in the application classpath, especially those tied to fallback handlers, and our goal is to decouple and eliminate them where possible.
+Hi Beth,
+
+We do have another namespace called app-qa4. Our pre-prod deployment is scheduled for June 18th, and the production release is planned for July 18th.
+
+We may need your support to deploy the changes from app-qa2 to app-qa4. Based on my understanding, since we are working within a single cluster, I wanted to confirm: Are we allowed to host two Gateway mesh endpoints per service?
+
+If that’s possible, we would like to give it a try before June 18th, as part of our pre-prod readiness efforts.
+
+Let me know your thoughts.
+
+Best regards,
+[Your Name]
