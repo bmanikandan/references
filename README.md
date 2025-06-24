@@ -1,9 +1,7 @@
-Concerns on CAP Team’s Kafka Adoption Strategy
+The CAP Team appears to be moving toward adopting Kafka and standardizing on a single architectural solution, based on the assumption that Kafka inherently delivers speed improvements for both asynchronous and synchronous payment flows.
 
-Good morning,
+Synchronous payments refer to transactions processed in real-time or near real-time, where the response is received immediately. In contrast, asynchronous payments involve a delay between the initiation and final resolution of the transaction—processing can take from a few minutes to several days, depending on the payment rail used (e.g., WIRE, ACH).
 
-The CAP Team appears to be moving toward adopting Kafka, based on the assumption that it inherently brings speed improvements for both asynchronous and synchronous payment flows. However, this direction raises concerns, as it seems to be more of a technical debt path than a well-justified architectural decision.
+However, this direction raises concerns for both types of flows. It appears to be more of a technical debt route rather than a well-grounded architectural decision, driven by assumptions rather than validated needs. Additionally, there’s an expectation for CAP to generate trace IDs using a custom open-source algorithm based on timestamps and random text, rather than leveraging standardized enterprise tools. This introduces unpredictability and complexity in managing trace ID uniqueness, especially when their existing custom algorithm, though scaled to millions of payments, lacks enterprise-level controls to prevent duplication.
 
-There is also an expectation for CAP to generate trace IDs using random algorithms, which adds further unpredictability and complexity to observability and debugging.
-
-While CAP maintains that “the business wants to use Kafka,” it seems this is largely being driven by a contractor who believes this is the best architecture. Unfortunately, this vision is being justified by leveraging business input rather than technical alignment. The hardest part is that we currently lack a knowledgeable representative at PNC who can challenge or guide this direction, ensuring it aligns with what PNC truly needs.
+CAP continues to assert that “the business wants to use Kafka,” but in reality, this direction appears to be largely driven by a contractor who strongly believes this is the best architectural fit for PNC’s flows. Unfortunately, this vision is being justified by leaning on business input rather than aligning with sound technical strategy or enterprise architectural principles. The absence of strong internal guidance to challenge or validate this approach only deepens the risk of misalignment with what PNC truly needs.
