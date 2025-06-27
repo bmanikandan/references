@@ -1,1 +1,1 @@
-Initially, I did not troubleshoot the issue thoroughly from my end. I later realized that I was using an older version of the 12c SQLPlus client. After upgrading to the 19c SQLPlus client from the Software Download Center, the Graph Query started working correctly.
+In tomorrow morning’s call, we will focus on setting up the Graph Server and the Graph WebApp using Tomcat for Graph Visualization.
