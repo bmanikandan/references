@@ -1,1 +1,4 @@
-Yes, there is a learning curve for both reactive and non-reactive programming models. However, developers who hesitate to learn will risk becoming obsolete. Java entered the reactive programming landscape relatively late—around JDK 9 in 2017—while languages like C++, Node.js, and Python have embraced reactive paradigms since as early as 200
+Frequent incoming funds followed by quick outbound transfers.
+	•	No clear connection between source and destination accounts.
+	•	Sudden spike in account activity from an otherwise dormant account.
+	•	Use of personal accounts for frequent business-like transactions.
