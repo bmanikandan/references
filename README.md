@@ -1,8 +1,1 @@
-After joining the project, I introduced three key technical directions aligned with our long-term scalability and modernization goals:
-	1.	Adoption of JDK 21 – Leveraging the latest LTS version for improved performance, language enhancements (e.g., virtual threads, pattern matching), and long-term support.
-	2.	Spring Reactive Stack – To better handle concurrent workloads and build a more responsive and resilient architecture suitable for our event-driven and asynchronous requirements.
-	3.	Deliberate Non-Adoption of Micronaut – After evaluation, we decided not to proceed with Micronaut at this stage to maintain alignment with our current ecosystem, team skillsets, and roadmap maturity.
-
-Please feel free to tag me as the decision owner for these directions.
-
-The benefits of these decisions have become increasingly evident since our move to production—particularly in terms of system responsiveness, resource efficiency, and developer productivity.
+I was misled by Tarun into believing that no decision had been made regarding the wave migration until today. Additionally, Tarun unnecessarily brought up the Reactive Programming topic in last week’s design review meeting, which led to over an hour of debating. The amount of energy he spent pushing back on the Reactive Programming topic could have been better spent on the learning path—in which case, we would likely be in better shape by now.
