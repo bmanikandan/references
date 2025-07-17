@@ -1,17 +1,8 @@
-Hi Sharon,
+After joining the project, I introduced three key technical directions aligned with our long-term scalability and modernization goals:
+	1.	Adoption of JDK 21 – Leveraging the latest LTS version for improved performance, language enhancements (e.g., virtual threads, pattern matching), and long-term support.
+	2.	Spring Reactive Stack – To better handle concurrent workloads and build a more responsive and resilient architecture suitable for our event-driven and asynchronous requirements.
+	3.	Deliberate Non-Adoption of Micronaut – After evaluation, we decided not to proceed with Micronaut at this stage to maintain alignment with our current ecosystem, team skillsets, and roadmap maturity.
 
-I was previously under the impression that no decision had been made regarding the wave migration. This understanding was based on the fact that Tarun had been working on an analysis task over the last two weeks during the previous sprint, and had also submitted an onboarding request for Split IO.
+Please feel free to tag me as the decision owner for these directions.
 
-However, I would like to clarify whether any interim decisions have been made in the meantime. Spending time and effort under the guise of analysis—if a decision has already been made—is counterproductive and a misuse of resources.
-
-If a decision has been made, I strongly recommend that we formally document it in an ADR (Architecture Decision Record), clearly outlining:
-	•	The chosen option
-	•	The decision owner
-	•	The pros and cons of the selected approach
-
-This will help avoid further time spent revisiting or debating alternatives unnecessarily.
-
-Specifically, can you please confirm:
-	•	Who is the decision owner for using the PIANCLE Wave Table?
-
-Please also note that the long-term enterprise strategy is to proceed with Split IO, targeted for the November 2025 release, only if the business decides to revisit and allocate budget accordingly after the initial release.
+The benefits of these decisions have become increasingly evident since our move to production—particularly in terms of system responsiveness, resource efficiency, and developer productivity.
