@@ -1,2 +1,1 @@
-We follow a Contract-First approach, and after development, the API documentation is exposed via Swagger UI at the API level for all non-prod environments.
-The manually crafted Swagger JSON created during the early stages is no longer maintained beyond that point, as any future changes are automatically reflected in the Swagger output.
+We’re still not getting clear answers from Brian’s team. They continue to insist on using Micron for the CI/CD pipeline, but beyond that, there’s been no detailed information or technical deep dive. It’s starting to seem like Brian’s team might not be the right point of contact for this. We may need to escalate or reach out directly to the Enterprise CI/CD support team for further clarity and support.
