@@ -1,1 +1,3 @@
-We’re still not getting clear answers from Brian’s team. They continue to insist on using Micron for the CI/CD pipeline, but beyond that, there’s been no detailed information or technical deep dive. It’s starting to seem like Brian’s team might not be the right point of contact for this. We may need to escalate or reach out directly to the Enterprise CI/CD support team for further clarity and support.
+I’m honestly tired of chasing this team — we’re not getting any meaningful responses, and they’re not even acknowledging messages on Teams. Let’s go ahead and publish what we have now. If there are gaps, let the DevHub team come back to us for the missing pieces.
+
+Everyone seems tuned to remote operations — just pressing buttons without any real understanding or concern for what’s going on under the hood.
