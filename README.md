@@ -1,3 +1,0 @@
-I’m honestly tired of chasing this team — we’re not getting any meaningful responses, and they’re not even acknowledging messages on Teams. Let’s go ahead and publish what we have now. If there are gaps, let the DevHub team come back to us for the missing pieces.
-
-Everyone seems tuned to remote operations — just pressing buttons without any real understanding or concern for what’s going on under the hood.
