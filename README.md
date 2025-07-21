@@ -1,3 +1,7 @@
-We have followed the instructions described in the link below. However, the Contact Information and View Swagger options are appearing in a disabled state. The documentation does not provide a clear explanation for this behavior.
-
-Could you please guide us on whether there are any additional steps or configuration settings required outside the scope of the document?
+Agent - a digital employee that can think, remember, and act
+Agent vs. Automation
+Automation = follows predefined sequence
+Agent = dynamically decide how to complete tasks
+3 Key Components - Brain (LLM), Memory, Tools
+Single Agent & Multi-Agent Systems
+Set Guardrails
