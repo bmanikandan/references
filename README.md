@@ -1,0 +1,2 @@
+BaseRock was charging $25K for on premises evaluation and free cloud version evaluation that poses lot of challenges to share PNC code to the could platform. Have decided to land at DiffBlue product.
+ETPM process may take three weeks from now, mid of Aug or later Aug, we may evaluate DiffBlue product.
