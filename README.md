@@ -1,3 +1,8 @@
+
+This change requires an update to the Dockerfile to ensure files are created on the NAS. Currently, the report listener generates files using a random user ID that is not part of group ID 4342.
+
+As a temporary measure to maintain the customer’s synoptic flow, please work with the Midrange team to grant full access (777) to the report folders. A permanent fix will be implemented in the upcoming release.
+
 Epic Name: System Optimization and Efficiency
 
 Epic Summary: Improve overall system performance, reduce resource consumption, and enhance scalability through targeted optimizations across infrastructure, application layers, and processes.
