@@ -1,1 +1,3 @@
-As per the screenshot, the minimum CPU is 25 millicores. The POD starts at 25 millicores and can scale up to 800 millicores as the load increases. I’m not sure why this was discussed with Brad.
+Saravanan is a US Citizen and a key member of the Scepter project. He is an excellent Automation Engineer and has also successfully played Architect roles in the past. Given his strong technical expertise and proven track record, he is a valuable asset to the Scepter project and could bring significant benefits to the PINCLE Renovations initiative.
+
+Can we consider him for one of your FTE Senior Software Engineer roles?
