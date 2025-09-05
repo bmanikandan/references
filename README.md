@@ -1,1 +1,1 @@
-Rangana, I would prefer not to get into the discussion of who created it or why it was created. The necessary information has already been captured in JIRA. Please proceed from this point onward.”
+As per the screenshot, the minimum CPU is 25 millicores. The POD starts at 25 millicores and can scale up to 800 millicores as the load increases. I’m not sure why this was discussed with Brad.
