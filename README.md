@@ -1,3 +1,9 @@
-Saravanan is a US Citizen and a key member of the Scepter project. He is an excellent Automation Engineer and has also successfully played Architect roles in the past. Given his strong technical expertise and proven track record, he is a valuable asset to the Scepter project and could bring significant benefits to the PINCLE Renovations initiative.
+Good Morning Brad,
 
-Can we consider him for one of your FTE Senior Software Engineer roles?
+This note is specific to Commercial. The new solution will serve both Commercial and Corporate, though the initial release is focused on Commercial. We need to consider traffic from both segments.
+
+There are two types of testing involved:
+	1.	Web UI testing
+	2.	API testing
+
+The 100 TPS target applies to API testing. At this point, can we move away from the current 1 TPS solutions?
