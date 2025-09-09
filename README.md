@@ -1,5 +1,12 @@
-Copilot provides different suggestions depending on the existing code. The current code repository is a fully Reactive REST API. A 10-minute load test was conducted in QA2, which processed 11,273 HTTP requests using only 40 threads. While Copilot’s suggestions could not be used directly, with minor adjustments they worked successfully, making it a great companion in development.
+Subject: Participation in CEO Visit – Sept 15–18 (RittBlue POC Phase)
 
-As of last week, we have moved to Code Freeze for the October 3rd release.
+Dear Team,
 
-We used DiffBlue in combination with Copilot for JUnit testing. Copilot’s reactor-based suggestions for mocks turned out to be a great companion. Of course, Copilot cannot be directly compared with Cursor IDE or other agentic tools, but its ability to generate JavaDocs and provide inline code suggestions while writing was impressive.
+RittBlue’s CEO will be traveling from the UK to the USA between September 15 and September 18. As you know, we are in the Proof-of-Concept phase, and the server setup for the on-premises database is yet to begin.
+
+The CEO has expressed the expectation that the business team should actively participate during his in-person visit.
+
+Could you please confirm who should be invited from both APP and PWO sides to be part of the discussions?
+
+Thank you,
+[Your Name]
