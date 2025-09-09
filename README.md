@@ -1,12 +1,3 @@
-Subject: Participation in CEO Visit – Sept 15–18 (RittBlue POC Phase)
+API testing will resume following the 10/3 sign-off. To date, testing has been conducted using a single company and operator. However, because Oracle leverages intelligent caching, repeated SQL queries may return results from cache, which can limit the accuracy of testing. To ensure comprehensive validation, future testing will include multiple users and a variety of entitlement combinations.
 
-Dear Team,
-
-RittBlue’s CEO will be traveling from the UK to the USA between September 15 and September 18. As you know, we are in the Proof-of-Concept phase, and the server setup for the on-premises database is yet to begin.
-
-The CEO has expressed the expectation that the business team should actively participate during his in-person visit.
-
-Could you please confirm who should be invited from both APP and PWO sides to be part of the discussions?
-
-Thank you,
-[Your Name]
+The expectations and test company details will be documented in Confluence for reference.
