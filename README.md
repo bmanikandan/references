@@ -42,3 +42,21 @@ Key grammar corrections made:
 	•	Corrected “SAMLResponse” → “SAML Response”
 	•	Improved parallel structure in bullet points
 The text now follows proper grammar rules while maintaining the technical accuracy.​​​​​​​​​​​​​​​​
+
+
+
+Improvement Area 1: Optimize outside web client handling.
+	•	Decouple client session management from servers into independent modules.
+	•	Improve heartbeat, session lifetime, and authentication mechanisms.
+	•	Ensure “Keep Me Alive” functionality works at the module level.
+
+Improvement Area 2: Avoid exchanging identities (e.g., CompanyId) through SAMLResponse when integrating with service applications.
+
+Improvement Area 3: Standardize authorization.
+	•	Prevent each module from maintaining its own authorization patterns.
+	•	Streamline logout handling to avoid multiple logout calls from outside the web client.
+
+⸻
+
+Do you want me to make this more formal (like an official review document) or more concise (like slides/bullets for a presentation)?
+
