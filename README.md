@@ -1,6 +1,4 @@
-a modern multi-brand portal navigation bar with easy no-code customization!
-
-
-Adapts to all screen sizes
-
-October 3rd marks our commercial brand beta launch with hand-picked test participants.
+Throughput: 90+ TPS sustained
+Response time: <200ms p95
+Infrastructure cost: -50%
+System uptime: 99.9%+
