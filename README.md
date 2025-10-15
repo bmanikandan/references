@@ -7,3 +7,6 @@ System uptime: 99.9%+
 Non-blocking I/O
 Better resource utilization
 Horizontal scalability
+
+Higher Throughput: Handle thousands of concurrent requests with fewer threads
+
