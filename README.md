@@ -1,1 +1,4 @@
-This unified approach provides proven protection while supporting efficient operations and eliminating the complexity of managing multiple systems. The investment delivers substantial returns through fraud prevention, operational improvements, enhanced financial controls, and simplified administration.
+a modern multi-brand portal navigation bar with easy no-code customization!
+
+
+Adapts to all screen sizes
