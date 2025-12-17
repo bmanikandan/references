@@ -1,0 +1,103 @@
+[project]
+name = "gmail-playwright-automation"
+version = "1.0.0"
+description = "Gmail Web Automation Testing with Python Playwright and Pytest"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["playwright", "pytest", "automation", "testing", "gmail"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Testing",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "pytest>=7.4.3",
+    "pytest-playwright>=0.4.3",
+    "playwright>=1.40.0",
+    "pytest-html>=4.1.1",
+    "pytest-xdist>=3.5.0",
+    "pytest-timeout>=2.2.0",
+    "allure-pytest>=2.13.2",
+    "python-dotenv>=1.0.0",
+    "Faker>=20.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+    "isort>=5.12.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/gmail-playwright-automation"
+Documentation = "https://github.com/yourusername/gmail-playwright-automation#readme"
+Repository = "https://github.com/yourusername/gmail-playwright-automation"
+Issues = "https://github.com/yourusername/gmail-playwright-automation/issues"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--verbose",
+    "--strict-markers",
+    "--tb=short",
+    "--html=reports/report.html",
+    "--self-contained-html",
+    "--browser=chromium",
+    "--headed",
+    "--slowmo=500",
+]
+markers = [
+    "smoke: Smoke tests for critical functionality",
+    "regression: Regression test suite",
+    "login: Login related tests",
+    "logout: Logout related tests",
+    "ui: UI validation tests",
+    "dom: DOM element validation tests",
+    "slow: Tests that take longer to execute",
+    "e2e: End-to-end tests",
+]
+timeout = 120
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py38", "py39", "py310", "py311"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 100
+multi_line_output = 3
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
