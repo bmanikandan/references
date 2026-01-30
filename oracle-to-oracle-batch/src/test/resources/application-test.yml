@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: oracle-to-oracle-batch-test
+
+  # Use H2 for all databases in tests
+  datasource:
+    url: jdbc:h2:mem:batchdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  batch:
+    job:
+      enabled: false
+    jdbc:
+      initialize-schema: always
+
+  h2:
+    console:
+      enabled: false
+
+# Source Database (H2 in tests)
+source:
+  datasource:
+    url: jdbc:h2:mem:sourcedb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+# Target Database (H2 in tests)
+target:
+  datasource:
+    url: jdbc:h2:mem:targetdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+batch:
+  chunk-size: 10
+  skip-limit: 5
+  source:
+    query: >
+      SELECT employee_id, first_name, last_name, email, 
+             department, salary, hire_date, status 
+      FROM employees 
+      WHERE status = 'ACTIVE'
+
+logging:
+  level:
+    org.springframework.batch: DEBUG
+    com.example.batch: DEBUG

@@ -1,0 +1,78 @@
+spring:
+  application:
+    name: oracle-to-oracle-batch
+
+  # H2 In-Memory DataSource for JobRepository (batch metadata)
+  datasource:
+    url: jdbc:h2:mem:batchdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  # Batch Configuration
+  batch:
+    job:
+      # Disable auto-run on startup (we'll trigger manually or via scheduler)
+      enabled: false
+    jdbc:
+      # Use in-memory H2 for batch metadata
+      initialize-schema: always
+
+  # H2 Console (for debugging - disable in production)
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+# Source Oracle Database Configuration
+source:
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/SOURCEDB
+    username: ${SOURCE_ORACLE_USERNAME:source_user}
+    password: ${SOURCE_ORACLE_PASSWORD:source_password}
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      pool-name: SourceOracleHikariPool
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 300000
+      connection-timeout: 20000
+      max-lifetime: 1200000
+      read-only: true
+
+# Target Oracle Database Configuration
+target:
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1522/TARGETDB
+    username: ${TARGET_ORACLE_USERNAME:target_user}
+    password: ${TARGET_ORACLE_PASSWORD:target_password}
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      pool-name: TargetOracleHikariPool
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 300000
+      connection-timeout: 20000
+      max-lifetime: 1200000
+
+# Batch Job Settings
+batch:
+  chunk-size: ${CHUNK_SIZE:100}
+  skip-limit: ${SKIP_LIMIT:10}
+  source:
+    # SQL query to fetch data from source Oracle
+    query: >
+      SELECT employee_id, first_name, last_name, email, 
+             department, salary, hire_date, status 
+      FROM employees 
+      WHERE status = 'ACTIVE'
+
+# Logging
+logging:
+  level:
+    org.springframework.batch: INFO
+    com.example.batch: DEBUG
+    org.springframework.jdbc: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
