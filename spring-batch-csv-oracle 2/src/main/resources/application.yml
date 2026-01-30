@@ -1,0 +1,56 @@
+spring:
+  application:
+    name: csv-to-oracle-batch
+
+  # Oracle DataSource Configuration (Primary - for business data)
+  datasource:
+    oracle:
+      url: jdbc:oracle:thin:@//localhost:1521/XEPDB1
+      username: ${ORACLE_USERNAME:batch_user}
+      password: ${ORACLE_PASSWORD:batch_password}
+      driver-class-name: oracle.jdbc.OracleDriver
+      hikari:
+        pool-name: OracleHikariPool
+        maximum-pool-size: 10
+        minimum-idle: 5
+        idle-timeout: 300000
+        connection-timeout: 20000
+        max-lifetime: 1200000
+
+  # H2 In-Memory DataSource for JobRepository
+  datasource:
+    url: jdbc:h2:mem:batchdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  # Batch Configuration
+  batch:
+    job:
+      # Disable auto-run on startup (we'll trigger manually or via scheduler)
+      enabled: false
+    jdbc:
+      # Use in-memory H2 for batch metadata
+      initialize-schema: always
+
+  # H2 Console (for debugging - disable in production)
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+# Batch Job Settings
+batch:
+  input:
+    file: ${INPUT_FILE:classpath:data/input.csv}
+  chunk-size: ${CHUNK_SIZE:100}
+  skip-limit: ${SKIP_LIMIT:10}
+
+# Logging
+logging:
+  level:
+    org.springframework.batch: INFO
+    com.example.batch: DEBUG
+    org.springframework.jdbc: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"

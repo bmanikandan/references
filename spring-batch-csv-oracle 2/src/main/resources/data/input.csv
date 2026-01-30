@@ -1,0 +1,11 @@
+employeeId,firstName,lastName,email,department,salary,hireDate,status
+EMP001,john,doe,john.doe@example.com,Engineering,75000.00,2020-01-15,ACTIVE
+EMP002,jane,smith,jane.smith@example.com,Marketing,68000.00,2019-06-20,A
+EMP003,bob,wilson,bob.wilson@example.com,Sales,72000.00,2021-03-10,ACTIVE
+EMP004,alice,johnson,alice.j@example.com,Engineering,85000.00,2018-11-05,ACTIVE
+EMP005,charlie,brown,charlie.b@example.com,HR,55000.00,2022-02-28,I
+EMP006,diana,prince,diana.prince@example.com,Engineering,92000.00,2017-08-12,ACTIVE
+EMP007,edward,stark,edward.s@example.com,Finance,78000.00,2020-05-01,ACTIVE
+EMP008,fiona,green,fiona.green@example.com,Marketing,62000.00,2023-01-10,ACTIVE
+EMP009,george,miller,george.m@example.com,Sales,70000.00,2019-09-15,T
+EMP010,helen,white,helen.white@example.com,Engineering,88000.00,2018-04-22,ACTIVE
