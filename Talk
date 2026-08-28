@@ -1,0 +1,81 @@
+Thank you, Amrutha. Good morning, everyone.
+
+Let me start with a simple thought. We are living in a very special time. Artificial Intelligence is changing the way we work. It is changing how we build software, how we make decisions, and how we help our customers. Things that took days can now take hours. Things that took hours can now take minutes.
+
+At C&IB, we have taken a big step forward. We have built our own AI agent. We call it ARIA.
+
+And instead of just telling you about ARIA, I want to show you. So right now, we are going to give ARIA a demo prompt — a real task, live on stage. While ARIA works on it in the background, I will walk you through what ARIA is and why it matters. By the end of this talk, we will come back and see what ARIA has done for us.
+
+Okay — the task is running. Now let me tell you the story behind it.
+
+Why we built ARIA
+
+Let me ask you a question. Think about the best developer on your team. The person who knows the product inside and out. The person everyone goes to when they are stuck.
+
+Now think about what happens when that person is on vacation. Or when they move to a new team. Or when they leave the company. All that knowledge — years of it — walks out the door with them. The rest of the team is left to figure things out on their own.
+
+This is a real problem. Today, so much of our knowledge lives inside the heads of a few people. Product knowledge. Coding best practices. Lessons learned the hard way. It is all there, but it is locked up. New team members take months to learn it. And every team keeps solving the same problems again and again.
+
+This is the problem ARIA solves.
+
+The idea behind ARIA is simple but powerful. We take the knowledge that lives with a few people, and we turn it into skills that everyone can use. Not a document that sits in a folder. Not a wiki page no one reads. A living, working skill backed inside an ARIA agent.
+
+Here is what that means in real life. A person has deep knowledge built over many years. With ARIA, we capture that knowledge and turn it into a skill. Now, any developer — new or experienced — can ask ARIA and get the same guidance, the same context, and the same advice, at any time of day. It is like having that expert sitting next to you, whenever you need them.
+
+What ARIA can do today
+
+Let me give you a few simple examples of ARIA skills we have right now.
+
+First, localization. If your app needs to support different languages and regions, ARIA can add that support for you the right way, the first time.
+
+Second, REST APIs. ARIA can help you build APIs that follow RFC standards. No guessing, no shortcuts. Just clean, standard work.
+
+Third, error handling. ARIA helps every service return error messages in the same clear format, based on RFC standards. So no matter which team built the service, the errors look and feel the same.
+
+These are the same best practices we already follow in every development cycle. The difference is, now you do not have to remember them or look them up. ARIA carries them for you.
+
+The ARIA Skills Marketplace
+
+Now, a skill is only useful if people can find it. So we built one more thing: the ARIA Skills Marketplace.
+
+Think of it like an app store, but for knowledge. It is one central place where every developer at PNC can go and see what is available.
+
+In the marketplace, you can do five things.
+
+One — you can discover skills. Browse what is out there and see what might help you today.
+
+Two — you can learn from other teams. The knowledge one team shares becomes something every team can use.
+
+Three — you can give feedback and ratings. If a skill helped you, say so. If it can be better, tell us. Every rating makes the skills stronger.
+
+Four — you can add your own skills. And it is easy. You do not need to be an AI expert. If you know something valuable, you can share it with very little effort.
+
+Five — and this is my favorite — you can reuse what already works. Why build something from scratch when another team has already solved it? Take it, use it, and spend your time on new problems instead.
+
+Why this matters
+
+Here is the big picture. When knowledge is shared this way, something changes in how we work.
+
+Knowledge stops being something one person owns. It becomes something the whole company owns. When an expert shares a skill, that knowledge stays with PNC forever. It does not go on vacation. It does not leave the company. It just keeps helping people, day after day.
+
+For developers, this means less time stuck and more time building. Less time searching for answers and more time solving real problems. New team members get up to speed faster. Every team writes better, more consistent code.
+
+And for the bank, it means we move faster, we build with higher quality, and we free our people to focus on the work that matters most — solving hard business problems for our customers.
+
+Coming back to the demo
+
+Now, remember the task we gave ARIA at the start of this talk?
+
+While I have been speaking, ARIA has been working. Let's take a look at what it has done.
+
+[Show the demo result here.]
+
+Think about that for a moment. The task you just saw would normally take a developer about two weeks to complete. ARIA finished it in eight minutes — while I was talking to you. Two weeks of work, done in eight minutes. That is the power of what we are building. So let's take a moment to appreciate ARIA — and the team behind it.
+
+Our vision is clear. We want an engineering world where AI and human skill work together, side by side. The AI handles the routine work, the standards, the setup. Our people focus on the hard problems, the creative ideas, and the big decisions.
+
+This is just the beginning of the journey. ARIA will keep learning. The marketplace will keep growing. And with every skill we add, we all get a little bit stronger together.
+
+I invite every one of you to be part of this. Try ARIA Agewnt. Use a ARIA skill. Share a ARIA skill. Give us your feedback.
+
+Thank you all for your time. Have a great day.
