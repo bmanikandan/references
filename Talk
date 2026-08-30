@@ -1,53 +1,35 @@
 Thank you, Amrutha. Good morning, everyone.
 
-At C&IB, we have taken a step forward. We have built our own AI agent, called ARIA, Artificial Intelligence Agent.
+We just saw two possibilities with PNC connectors and skills. At C&IB, we built on that same foundation to create ARIA — our developer agent harness engineering platform.
 
-Let's give a prompt to build an API with the ARIA Agent — (Demo running)
+Let me show you how ARIA simplifies development. ARIA is a terminal-first agent, and I'm going to give it a real task: build an API that fetches the last 90 days of micro-deposits, with pagination.
 
-Why We Built ARIA
+The moment I issue the prompt, ARIA looks up the relevant skills, templates, code samples and than create a plan.
 
-Product knowledge, coding best practices, lessons learned the hard way — all locked up in individual brains (people carry knowledge). New team members take months to learn it, and every team keeps solving the same problems again and again.
+In C&IB, we have strict guidelines: we maintain a standard folder structure, and every API must be protected via OAuth 2.0, with bearer-token validation based on the Ping certificate. We also have some additional capabilities — every API exposes a set of default endpoints, such as health check, version info, and synthetic monitoring.
 
-This is the problem ARIA solves. Instead of people carrying knowledge, agentic tools will carry the knowledge, backed inside an ARIA agent.
+These are all best practices we already follow in every development cycle. The difference is, now you do not have to remember them. Let ARIA carry them for you.
 
-Let me walk you through the step-by-step actions taken by ARIA.
-
-First, localization. If your app needs to support different languages and regions, ARIA can add that support for you the right way, the first time.
-
-Second, REST APIs. ARIA can help you build APIs that follow RFC standards — no guessing, no shortcuts, just clean, standard work.
-
-Third, error handling. ARIA helps every service return error messages in the same clear format, based on RFC standards, so no matter which team built the service, the errors look and feel the same.
-
-Fourth, handling database tools.
-
-All the best practices we already follow in every development cycle — the difference is, now you do not have to remember. Let ARIA carry them for you.
+Let ARIA work for us.
 
 Now, agentic skills are only useful if people can find them. So we built one more thing: the ARIA Skills Marketplace.
+Think of it like an app store — but for ARIA agentic skills. It is one central place where every developer at PNC can go and see what is available.
+In the marketplace, you can do five things:
 
-Think of it like an app store, but for knowledge. It is one central place where every developer at PNC can go and see what is available.
+One — discover skills.
+Two — learn from other teams.
+Three — give feedback and ratings.
+Four — add your own skills with very little effort.
+Five — reuse what already works, and spend your time on new problems instead.
 
-In the marketplace, you can do five things.
-
-One — you can discover skills. Browse what is out there and see what might help you today.
-
-Two — you can learn from other teams. The knowledge one team shares becomes something every team can use.
-
-Three — you can give feedback and ratings. If a skill helped you, say so. If it can be better, tell us. Every rating makes the skills stronger.
-
-Four — you can add your own skills. And it is easy. You do not need to be an AI expert. If you know something valuable, you can share it with very little effort.
-
-Five — and this is my favorite — you can reuse what already works. Why build something from scratch when another team has already solved it? Take it, use it, and spend your time on new problems instead.
-
-Coming back to the ARIA Agent demo.
+Coming back to the ARIA agent demo.
 
 [Show results]
 
-The task you just saw would normally take a developer about two weeks to complete. ARIA finished it in eight minutes — while I was talking to you. Two weeks of work, done in eight minutes. That is the power of what we are building.
+The work ARIA just completed would typically take a developer one to two weeks. ARIA finished it in eight minutes — while I was talking to you.
 
-Our vision is clear: AI and human skill working together, side by side. The AI handles the routine work, the standards, the setup. Our people focus on the hard problems, the creative ideas, and the big decisions.
+And this is just the beginning. ARIA will keep learning, the marketplace will keep growing, and every skill we add makes all of us stronger.
 
-This is just the beginning of the journey. ARIA will keep learning. The marketplace will keep growing. And with every skill we add, we all get a little bit stronger together.
+Thank you.
 
-I invite each of you to be part of this. Try the ARIA Agent. Use an ARIA skill. Share an ARIA skill. Give us your feedback.
-
-Thank you all for your time. Have a great day.
+Thank you all for your time with ARIA. Have a great day.
